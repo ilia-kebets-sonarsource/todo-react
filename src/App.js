@@ -89,7 +89,7 @@ function App(props) {
   function addTask(name) {
     const newTask = { id: "todo-" + nanoid(), name, completed: false };
     setTasks([...tasks, newTask]);
-  }
+  } 
 
 
   const tasksNoun = taskList.length !== 1 ? 'tasks' : 'task';
